@@ -8,6 +8,15 @@ A reader deciding on a project runs a funnel: they have to care, then trust, the
 
 The skill treats the README as a checklist problem, not a writing talent problem. Each rule traces to a source in `EVIDENCE.md`, and the skill names what the evidence does not establish — the voice numbers come from a 1997 web-usability study of websites, not READMEs, and the skill keeps that date attached when quoting them.
 
+## Quick start
+
+```sh
+git clone https://github.com/protokol11/write-readme.git
+cp -r write-readme/write-readme ~/.agents/skills/write-readme
+```
+
+In pi: `/skill:write-readme` audits or writes the README. Details below.
+
 ## Install
 
 Prerequisites: None.
